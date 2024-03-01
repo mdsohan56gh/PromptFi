@@ -1,0 +1,52 @@
+# Project configuration files (DO NOT COMMIT)
+github_accounts.csv
+project_description.txt
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.log
+
+# Production
+build/
+dist/
+out/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Smart Contracts
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Hardhat
+coverage.json
+.hardhat/
+
+# IPFS
+.ipfs/
+
+# Misc
+*.tgz
+.npmrc
+
