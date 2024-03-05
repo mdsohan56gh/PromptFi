@@ -1,0 +1,27 @@
+{
+  "name": "promptfi",
+  "version": "1.0.0",
+  "description": "AI Prompt Tokenization & Usage Protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "web3",
+    "ai",
+    "prompt",
+    "nft",
+    "blockchain"
+  ],
+  "author": "PromptFi Team",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+  }
+}
+
