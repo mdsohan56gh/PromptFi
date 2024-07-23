@@ -24,7 +24,84 @@ PromptFi is a Web3 protocol that transforms AI Prompts into verifiable, tradeabl
 
 ## Getting Started
 
-Coming soon...
+### Prerequisites
+
+- Node.js >= 18.0.0
+- npm or yarn
+- MetaMask or another Web3 wallet
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/mdsohan56gh/PromptFi.git
+cd PromptFi
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Compile smart contracts
+```bash
+npx hardhat compile
+```
+
+4. Run tests
+```bash
+npx hardhat test
+```
+
+5. Deploy contracts (local)
+```bash
+npx hardhat node
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+### Frontend Setup
+
+1. Navigate to frontend directory
+```bash
+cd frontend
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Create `.env.local` file with required environment variables
+```
+NEXT_PUBLIC_PROMPTNFT_ADDRESS=0x...
+NEXT_PUBLIC_USAGETRACKER_ADDRESS=0x...
+NEXT_PUBLIC_REVENUESPLITTER_ADDRESS=0x...
+NEXT_PUBLIC_CREATORREGISTRY_ADDRESS=0x...
+NEXT_PUBLIC_CHAIN_ID=1337
+```
+
+4. Run development server
+```bash
+npm run dev
+```
+
+Visit `http://localhost:3000` to see the app.
+
+## Smart Contracts
+
+- **PromptNFT**: ERC-1155 token contract for prompt NFTs
+- **UsageTracker**: Records prompt usage events
+- **RevenueSplitter**: Manages revenue distribution
+- **CreatorRegistry**: Handles creator profiles and reputation
+
+## Documentation
+
+- [API Documentation](docs/API.md)
+- [Architecture Overview](docs/ARCHITECTURE.md)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
