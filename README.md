@@ -99,9 +99,16 @@ Visit `http://localhost:3000` to see the app.
 - [API Documentation](docs/API.md)
 - [Architecture Overview](docs/ARCHITECTURE.md)
 
+## Community
+
+Join our community:
+- Discord: [Coming soon]
+- Twitter: @PromptFi
+- GitHub Discussions: [Ask questions](https://github.com/mdsohan56gh/PromptFi/discussions)
+
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a Pull Request.
 
 ## License
 
