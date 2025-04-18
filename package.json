@@ -5,16 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "hardhat test",
+    "test:gas": "REPORT_GAS=true hardhat test",
     "compile": "hardhat compile",
     "deploy": "hardhat run scripts/deploy.js",
     "deploy:mumbai": "hardhat run scripts/deploy.js --network mumbai",
     "deploy:polygon": "hardhat run scripts/deploy.js --network polygon",
     "verify": "hardhat run scripts/verify.js",
+    "interact": "hardhat run scripts/interact.js",
+    "setup": "hardhat run scripts/setup.js",
+    "gas-report": "hardhat run scripts/gas-report.js",
     "node": "hardhat node",
     "clean": "hardhat clean",
     "coverage": "hardhat coverage",
     "lint": "solhint 'contracts/**/*.sol'",
-    "format": "prettier --write 'contracts/**/*.sol'"
+    "lint:fix": "solhint 'contracts/**/*.sol' --fix",
+    "format": "prettier --write 'contracts/**/*.sol'",
+    "format:check": "prettier --check 'contracts/**/*.sol'"
   },
   "keywords": [
     "web3",
