@@ -42,6 +42,11 @@ typechain-types/
 # Hardhat
 coverage.json
 .hardhat/
+gas-report.txt
+
+# Test outputs
+test-results/
+*.log
 
 # IPFS
 .ipfs/
